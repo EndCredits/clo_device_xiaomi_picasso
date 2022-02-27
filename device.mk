@@ -28,12 +28,10 @@ $(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayPicasso \
     FrameworkResOverlayPicasso \
     SettingsOverlayPicasso \
     SystemUIOverlayPicasso \
-    TelephonyOverlayPicasso \
-    WifiResCommon
+    TelephonyOverlayPicasso
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -375,6 +373,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     av \
     bt \
     display \
+    overlay \
     perf \
     telephony
 
