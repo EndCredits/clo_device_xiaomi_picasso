@@ -189,28 +189,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
-# Display
-PRODUCT_PACKAGES += \
-    android.hardware.graphics.mapper@3.0-impl-qti-display \
-    android.hardware.graphics.mapper@4.0-impl-qti-display \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service \
-    gralloc.lito \
-    libtinyxml \
-    libvulkan \
-    memtrack.lito \
-    vendor.display.config@1.11.vendor \
-    vendor.display.config@1.5 \
-    vendor.display.config@2.0 \
-    vendor.display.config@2.0.vendor \
-    vendor.qti.hardware.display.allocator-service \
-    vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.display.mapper@1.1.vendor \
-    vendor.qti.hardware.display.mapper@2.0.vendor \
-    vendor.qti.hardware.display.mapper@3.0.vendor \
-    vendor.qti.hardware.display.mapper@4.0.vendor \
-    vendor.qti.hardware.display.mapperextensions@1.1.vendor
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
@@ -411,6 +389,7 @@ PRODUCT_PACKAGES += \
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     av \
+    display \
     perf
 
 # RIL
