@@ -407,6 +407,10 @@ PRODUCT_COPY_FILES += \
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
+    
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
 
 # RIL
 PRODUCT_PACKAGES += \
