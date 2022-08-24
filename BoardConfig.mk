@@ -90,7 +90,7 @@ DEVICE_MATRIX_FILE += \
 	device/qcom/common/compatibility_matrix.xml \
 	$(DEVICE_PATH)/compatibility_matrix.xml
 
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/vendor_framework_compatibility_matrix.xml \
     vendor/qcom/opensource/core-utils/vendor_framework_compatibility_matrix.xml
 
