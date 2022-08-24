@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2021 The LineageOS Project
-# Copyright (C) 2022 Project 404
+# Copyright (C) 2022 AOSPA
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -180,6 +180,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
+# Doze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.sensor.pickup=xiaomi.sensor.pickup
+    
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
@@ -304,10 +311,6 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc
-
-# Parts
-# PRODUCT_PACKAGES += \
-#     XiaomiParts
 
 # Power
 PRODUCT_PACKAGES += \

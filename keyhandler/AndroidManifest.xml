@@ -4,6 +4,11 @@
 
      SPDX-License-Identifier: Apache-2.0
 -->
+<<<<<<<< HEAD:keyhandler/AndroidManifest.xml
+========
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.aospa.picasso">
+>>>>>>>> 8603f55 (picasso: Reborn~ AOSPA):rro_overlays/AOSPAPicassoFramworks/AndroidManifest.xml
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           android:sharedUserId="android.uid.system"
