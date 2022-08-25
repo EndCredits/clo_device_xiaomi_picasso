@@ -1,0 +1,6 @@
+allow vold privapp_data_file:dir { getattr };
+allow vold app_data_file:dir { getattr };
+allow vold radio_data_file:dir { getattr };
+allow vold system_app_data_file:dir { getattr };
+allow vold nfc_data_file:dir { getattr };
+allow vold bluetooth_data_file:dir { getattr };
