@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter picasso picasso_48m,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),picasso)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
