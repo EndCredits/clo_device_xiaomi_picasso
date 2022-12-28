@@ -23,6 +23,9 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">3</integer>
+
+    <!-- Fingerprint -->
+    <item name="fingerprint_sensor_location_fraction_y" type="fraction">45%</item>
     
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
