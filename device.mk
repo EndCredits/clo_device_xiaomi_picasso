@@ -288,8 +288,13 @@ PRODUCT_PACKAGES += \
 # Mlipay
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.mlipay@1.1.vendor \
-    vendor.xiaomi.hardware.mtdservice@1.0.
-    
+    vendor.xiaomi.hardware.mtdservice@1.0.vendor
+
+# Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/xiaomi
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor
