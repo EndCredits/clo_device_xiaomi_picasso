@@ -18,3 +18,4 @@ type vendor_power_prop, property_type;
 type persist_block_device, dev_type;
 type sysfs_usb_supply, sysfs_type, fs_type;
 type sysfs_graphics, sysfs_type, fs_type;
+type vendor_ims, domain;

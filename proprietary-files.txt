@@ -980,8 +980,6 @@ vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 
 # QMI
-system_ext/etc/permissions/qti_libpermissions.xml
-system_ext/etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/bin/qmipriod
@@ -1039,13 +1037,6 @@ vendor/lib64/libQTEEConnector_vendor.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # RIL
-product/etc/permissions/telephony_product_privapp-permissions-qti.xml
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
-system_ext/etc/permissions/qcrilhook.xml
-system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
-system_ext/framework/qcrilhook.jar
-system_ext/framework/qti-telephony-common.jar
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/adpl
 vendor/bin/ATFWD-daemon
 vendor/bin/hw/qcrild
